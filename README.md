@@ -11,7 +11,7 @@ Bypass we are going to do is using external cheats creating an ESP possibly AIM 
 
 # Bypass 1.
 
-1. Use kernel driver (uc is full of usermode->driver ready to build solutions)
+1. Use kernel driver, this way you don't need to create handle to access memory (uc is full of usermode->driver ready to build solutions)
 2. More complicated attack VAC at (steamservice.dll) and patch functions/check (this can get easilly detected)
 3. Hijack process handle with needed permisions (As for now there is no known detection vector for this)
 
