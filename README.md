@@ -7,6 +7,7 @@ Bypass we are going to do is using external cheats creating an ESP possibly AIM 
 
 1. VAC enumprocesses & scan all openned handles (leading our external to be flag/banned)
 2. VAC seems to check some memory section for unautorized changes
+3. VAC scans for strings (example: client.dll, engine.dll, Valve001 and many more)
 
 # Bypass 1.
 
@@ -22,3 +23,7 @@ Bypass we are going to do is using external cheats creating an ESP possibly AIM 
    Basically all well known features are going to flag(red trust) and eventually lead to game ban
 2. Since we can't write to the game memory, you'd need overlay and make a regular esp
    As for now there are flags on creating overlay
+
+# Bypass 3.
+
+1. Decrypt all strings at runtime using XOR library for example
